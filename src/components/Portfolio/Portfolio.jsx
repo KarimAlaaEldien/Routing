@@ -43,7 +43,7 @@ export default function Portfolio() {
                 </div>
             </div>
             {isShow && currentIndex !== null && (
-                <div className='fixed top-0 left-0 right-0 bottom-0 bg-blue-300 bg-opacity-40 z-10 h-full flex justify-center items-center'>
+                <div className='fixed top-0 left-0 right-0 bottom-0 bg-blue-300 bg-opacity-40 z-50 h-full flex justify-center items-center'>
                     <img src={images[currentIndex]} className='w-2/3 md:w-1/2' alt="Current Portfolio" />
                     <button onClick={closeLayer} className='absolute top-3 right-3'>
                         <i className="fa-regular fa-circle-xmark text-xl"></i>
